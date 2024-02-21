@@ -28,10 +28,10 @@ func main(){
 #### to create flag
 POST HOST/flag
 body:
-```
+```json
 {
     "flag": "some-flag",
-	"is_enable": true
+    "is_enable": true
 }
 ```
 if is_enable true. it will be active, if false it will be inactive
