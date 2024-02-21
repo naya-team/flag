@@ -99,8 +99,7 @@ func TestCoba123() {
     var segmentation int
 
 
-    segmentation++
-    fmt.Println("mantap")
+    fmt.Println("yeah....")
 
 
     // some code
@@ -114,11 +113,9 @@ func TestCoba123() {
     var segmentation int
     
     if !flag.IsEnable("some-flag") {
-        segmentation++
-        fmt.Println("mantap")
+        fmt.Println("yeah....")
     }else{
-        segmentation += 1_000
-        fmt.Println("hooo ngga mantap")
+        fmt.Println("woooo.......")
     }
     
     // some code
@@ -131,8 +128,7 @@ func TestCoba123() {
     var segmentation int
 
 
-    segmentation += 1_000
-    fmt.Println("hooo ngga mantap")
+    fmt.Println("woooo.......")
 
 
     // some code
