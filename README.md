@@ -25,6 +25,27 @@ func main(){
 }
 ```
 
+#### to create flag
+POST HOST/flag
+body:
+```
+{
+    "flag": "some-flag",
+	"is_enable": true
+}
+```
+if is_enable true. it will be active, if false it will be inactive
+
+#### to enable or disable flag
+PUT HOST/flag/:flag/:action
+params
+* flag => name of flag, ex: some-flag
+* action => enable or disable
+
+#### to get all flag
+GET HOST/flags
+
+
 ### On logic code
 
 if u want to flag some logic code, u can use flag like this:
